@@ -10,7 +10,7 @@ $(document).ready(function () {
             url = $form.attr('action');
         var parameters = { name: $('#name').val(), phone: $('#phone').val(),JobTitle:$('#JobTitle').val(), message: $('#message').val() };
         $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbzGXtX-AJDCR5yRHQ89THSmnS5uN--CzMtBr_3XLISIUptJer4/exec",
+            url: "https://script.google.com/macros/s/AKfycbz4PjY__GKh_4wRNzrZwsz5JMuUDSab1Rku3T2kxXxlwVgRZSCn/exec",
             method: "POST",
             data: parameters
         })
@@ -42,7 +42,7 @@ $(document).ready(function () {
         /* Send the data using post with element id name and name2*/
         var parameters = { name: $('#name').val(), phone: $('#phone').val(), plan: $('#plan').val(), message: $('#message').val() };
         $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbzGXtX-AJDCR5yRHQ89THSmnS5uN--CzMtBr_3XLISIUptJer4/exec",
+            url: "https://script.google.com/macros/s/AKfycbz4PjY__GKh_4wRNzrZwsz5JMuUDSab1Rku3T2kxXxlwVgRZSCn/exec",
             method: "POST",
             data: parameters
         })

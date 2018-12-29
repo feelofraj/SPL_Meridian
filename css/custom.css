@@ -142,10 +142,13 @@ color: black;
     padding:10px 5px;
     animation: social 5s linear 2s infinite alternate;
 	cursor:pointer;
-    background-color: rgb(31, 192, 192);
+    
 }
 #whatsapp{
     margin-bottom: 50%
+}
+#sms{
+    background-color: rgb(31, 192, 192);
 }
 
 #deviceUL{

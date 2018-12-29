@@ -10,7 +10,15 @@
 	<title>Hielo by TEMPLATED</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.1/css/all.css' integrity='sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz'
+	 crossorigin='anonymous'>
 	<link rel="stylesheet" href="css/main.css" />
+
 	<!-- Scripts -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.scrollex.min.js"></script>
@@ -22,26 +30,24 @@
 <body class="subpage">
 
 	<!-- Header -->
-	<header id="header">
-		<div class="logo"><a href="iHome.html">Hielo <span>by TEMPLATED</span></a></div>
-		<a href="#menu">Menu</a>
-	</header>
-
-	<!-- Nav -->
-	<nav id="menu">
-		<ul class="links">
-			<li><a href="iHome.html">Home</a></li>
-			<li><a href="generic.html">Generic</a></li>
-			<li><a href="elements.html">Elements</a></li>
+	<div class="navbar navbar-expand  fixed-top" id="headerMenu">
+		<span id="compName">Real Estate</span>
+		<ul class="navbar-nav" id="navMenu">
+			<li class="nav-item">
+				<a class="nav-link " id="navLink" name="Policy" href="rhome.html">Catagory</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link " id="navLink" name="Careers" href="generic.html">Availablities</a>
+			</li>
 		</ul>
-	</nav>
+	</div>
 
 	<!-- One -->
 	<section id="One" class="wrapper style3">
 		<div class="inner">
 			<header class="align-center">
 				<p></p>
-				<h2>Generic Page Template</h2>
+				<h2>Available Properties</h2>
 			</header>
 		</div>
 	</section>
@@ -52,33 +58,44 @@
 			<div class="box">
 				<div class="content">
 					<header class="align-center">
-						<p>Content</p>
-						<h2>Title</h2>
+						<p id="rReqTitle1">Land Property Available</p>
 					</header>
-					<p>Content1</p>
+					<div class="row">
+						<div class="col-sm-4"><span id="rAddress" style="white-space: pre">
+								North East Corner Plot
+								No : 15, Ramasamy Street
+								Ramapuram, Saidapet
+								Chennai
+								Near Jayaraj Theatre
 
-					<p>Content.</p>
-
-					<p>Content.</p>
+							</span>
+						</div>
+						<div class="col-sm-4"><span id="rAddress" style="white-space: pre">
+								Frontage : 30 * 70
+								Land Area : 2100 sq.ft
+								Legalizer : 8 People family person
+								Customer Need : 2 Crore 10 Lakh
+								Govt. Value : 7500 to 8000
+								Market Value : 10,000 to 12,000
+							</span>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Footer -->
-	<footer id="footer">
-		<div class="container">
-			<ul class="icons">
-				<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-				<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-			</ul>
-		</div>
-		<div class="copyright">
-			&copy; All rights reserved. @ SPL meridian.
-		</div>
-	</footer>
+	<div class="navbar navbar-expand fixed-bottom" id="footerMenu">
+		<ul class="navbar-nav" id="navMenu">
+			<li class="nav-item">
+				<a class="nav-link" id="navLink" href="index.html">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="navLink" href="index.html#contactUs">Contact</a>
+			</li>
+		</ul>
+	</div>
 
 
 

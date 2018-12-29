@@ -57,9 +57,9 @@ $(document).ready(function () {
                 $('#contact-error-msg').css('color', 'red');
                 $('#contact-error-msg').html('Falied: Please try again later or contact us.');
             });
-            setTimeout(function(){
-				location.reload();
-		},5000);
+        // setTimeout(function () {
+        //     location.reload();
+        // }, 10000);
     });
 
    

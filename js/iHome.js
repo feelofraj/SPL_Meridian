@@ -151,3 +151,7 @@ for( i=0 ; i<=5 ;i++)
     }
 }
 }
+
+function getValue(value){
+    document.getElementById("jobTitle").value = value;
+}

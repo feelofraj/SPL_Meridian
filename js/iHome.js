@@ -48,18 +48,18 @@ $(document).ready(function () {
         })
             .done(function (data) {
 
-                $('#contact-error-msg').css('color', 'green');
-                $('#contact-error-msg').html('Received your request');
+                $('#error-msgP').css('color', 'green');
+                $('#error-msgP').html('Received your request');
                
             })
             .fail(function (jqXHR, textStatus, errorThrown) {
 
-                $('#contact-error-msg').css('color', 'red');
-                $('#contact-error-msg').html('Falied: Please try again later or contact us.');
+                $('#error-msgP').css('color', 'red');
+                $('#error-msgP').html('Falied: Please try again later or contact us.');
             });
-        // setTimeout(function () {
-        //     location.reload();
-        // }, 10000);
+        setTimeout(function () {
+            location.reload();
+        }, 5000);
     });
 
    

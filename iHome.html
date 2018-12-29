@@ -74,7 +74,8 @@
                             <i class="fa fa-calendar" aria-hidden="true"> Posted on :29 Dec 18</i>
                         </div>
                         <div class="col-sm-3 ">
-                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" onclick ="getValue('ADVISOR')" value="Apply">
+                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" onclick="getValue('Advisor')"
+                                value="Apply">
                         </div>
                     </div>
                     <div class="row" id="reqBox">
@@ -104,7 +105,8 @@
                             <i class="fa fa-calendar" aria-hidden="true"> Posted on :29 Dec 18</i>
                         </div>
                         <div class="col-sm-3 ">
-                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" onclick ="getValue('AGENCY PARTNER')" value="Apply">
+                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" onclick="getValue('AGENCY PARTNER')"
+                                value="Apply">
                         </div>
                     </div>
                     <div class="row" id="reqBox">
@@ -134,7 +136,8 @@
                             <i class="fa fa-calendar" aria-hidden="true"> Posted on :29 Dec 18</i>
                         </div>
                         <div class="col-sm-3 ">
-                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" onclick ="getValue('SENIOR AGENCY PARTNER')" value="Apply">
+                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" onclick="getValue('SENIOR AGENCY PARTNER')"
+                                value="Apply">
                         </div>
                     </div>
                     <div class="row" id="reqBox">
@@ -163,7 +166,8 @@
                             <i class="fa fa-calendar" aria-hidden="true"> Posted on :29 Dec 18</i>
                         </div>
                         <div class="col-sm-3 ">
-                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" onclick ="getValue('CHIEF AGENCY PARTNER')" value="Apply">
+                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" onclick="getValue('CHIEF AGENCY PARTNER')"
+                                value="Apply">
                         </div>
                     </div>
                     <div class="modal fade" id="hModal">
@@ -194,22 +198,26 @@
                                         <div class="popformContent">
                                             <div class="row">
                                                 <div class="col-sm-4"><label>Job Title</label> </div>
-                                                <div class="col-sm-8"><input class="form-control" type="text" name="jobTitle"
-                                                        id="jobTitle" readonly></div>
+                                                <div class="col-sm-8">
+                                                    <input class="form-control" type="text" name="jobTitle" id="jobTitle" readonly>
+                                                </div>
                                             </div>
                                         </div>
-                                </div>
-                                <div class="popformContent">
-                                    <div class="row">
-                                        <div class="col-sm-4"><label>Description</label> </div>
-                                        <div class="col-sm-8"><input class="form-control" name="message" type="textarea"
-                                                placeholder="Message of Request" id="message"></div>
-                                    </div>
-                                </div>
-                                <div class="popformContent">
-                                    <div class="row">
-                                        <p id="error-msg"></p>
-                                    </div>
+                                        <div class="popformContent">
+                                            <div class="row">
+                                                <div class="col-sm-4">
+                                                    <label>Description</label> 
+                                                </div>
+                                                <div class="col-sm-8"> 
+                                                 <textarea class="form-control" name="message" placeholder="Message of Request" id="message"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="popformContent">
+                                            <div class="row">
+                                                <p id="error-msg"></p>
+                                            </div>
+                                        </div>
                                 </div>
                                 <div class="popformContent">
                                     <div class="row"></div>
@@ -258,33 +266,42 @@
                         <div class="col-sm-12 col-md-12 col-lg-12">
                             <p id="reqTitle">Kotak Assured Income Plan</p>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <ul name="policyList" id="reqTxt">
-                                <li>
-                                    A Life Insurance PlanThe little luxuries that we indulge in with our family
-                                    form our
-                                    most pleasant memories.</li>
-                                <li>Imagine if you could enjoy these moments without worrying about the associated
-                                    costs.</li>
-                                <li>An additional
-                                    guaranteed stream of income could make a difference here.</li>
-                                <li>A smart investment
-                                    decision
-                                    today can go a long
-                                    way in ensuring that the life, you want for your family, would indeed become a
-                                    reality.</li>
-                                <li>Keeping this in
-                                    mind, Kotak Life Insurance brings to you Kotak Assured Income Plan, your second
-                                    income.</li>
-                                <li>This plan
-                                    guarantees you an additional income every year for fixed 15 years.</li>
-                                <li>You also enjoy
-                                    life
-                                    cover for the entire
-                                    policy term thereby protecting your family from any uncertainties.
-                                </li>
-                            </ul>
-                            <span id="splTxt">Give 10L get 20L + Tax benefits+ Life coverage</span>
+                        <div id="1" name="1">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <p id="reqTitle">Kotak Assured Income Plan</p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <ul name="policyList" id="reqTxt">
+                                    <li>
+                                        A Life Insurance PlanThe little luxuries that we indulge in with our family
+                                        form our
+                                        most pleasant memories.</li>
+                                    <li>Imagine if you could enjoy these moments without worrying about the associated
+                                        costs.</li>
+                                    <li>An additional
+                                        guaranteed stream of income could make a difference here.</li>
+                                    <li>A smart investment
+                                        decision
+                                        today can go a long
+                                        way in ensuring that the life, you want for your family, would indeed become a
+                                        reality.</li>
+                                    <li>Keeping this in
+                                        mind, Kotak Life Insurance brings to you Kotak Assured Income Plan, your second
+                                        income.</li>
+                                    <li>This plan
+                                        guarantees you an additional income every year for fixed 15 years.</li>
+                                    <li>You also enjoy
+                                        life
+                                        cover for the entire
+                                        policy term thereby protecting your family from any uncertainties.
+                                    </li>
+                                </ul>
+                                <span id="splTxt">Give 10L get 20L + Tax benefits+ Life coverage</span>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal"
+                                    onclick="getValue('Kotak Assured Income Plan')" value="Apply">
+                            </div>
                         </div>
                         <div class="col-sm-6 ">
                             <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
@@ -309,158 +326,172 @@
                             <span id="splTxt">Year Returns + Income increases year on year</span>
                         </div>
                         <div class="col-sm-6 ">
-                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
+                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" onclick="getValue('Kotak Assured Income Accelerator')"
+                                value="Apply">
                         </div>
                     </div>
-                    <div id="3" name="3">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <p id="reqTitle">Kotak Premier Moneyback Plan</p>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <ul name="policyList" id="reqTxt">
-                                <li>
-                                    Protect your today to secure your tomorrow. We aspire to offer our loved ones
-                                    everything
-                                    that they dream for, as much as we wish to secure them.</li>
-                                <li> Be it in their professional
-                                    lives or personal lives, their happiness and protection is our ultimate aim.</li>
-                                <li> That
-                                    is
-                                    why Kotak Life Insurance offers Kotak Premier Moneyback Plan, a unique plan
-                                    that
-                                    blends
-                                    savings and protection.</li>
-                                <li>It is a limited pay plan that provides lump sum payouts at
-                                    regular intervals to meet your interim financial requirements and let you offer
-                                    the
-                                    best to your family.</li>
-
-                            </ul>
-                            <span id="splTxt">20% of sum assured every five years + loyalty bonus + maturity bonus</span>
-                        </div>
-                        <div class="col-sm-6 ">
-                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
-                        </div>
+                    <div class="col-sm-6 ">
+                        <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
                     </div>
-                    <div id="4" name="4">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <p id="reqTitle">Kotak Premier Income Plan</p>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <ul name="policyList" id="reqTxt">
-                                <li>
-                                    Kotak Premier Income Plan is a savings and protection oriented plan that offers
-                                    Guaranteed Annual Income immediately after the premium payment term to provide
-                                    you
-                                    with
-                                    an additional annual income.</li>
-                                <li>It also gives accrued bonuses at the end of the policy
-                                    term in lump sum while providing life cover throughout the policy term.</li>
-
-                            </ul>
-                            <span id="splTxt">Double the sum assured</span>
-                        </div>
-                        <div class="col-sm-6 ">
-                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
-                        </div>
+                </div>
+                <div id="3" name="3">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <p id="reqTitle">Kotak Premier Moneyback Plan</p>
                     </div>
-                    <div id="5" name="5">
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <p id="reqTitle">Kotak SmartLife Plan</p>
-                        </div>
-                        <div class="col-sm-12 col-md-12 col-lg-12">
-                            <ul name="policyList" id="reqTxt">
-                                <li>
-                                    Kotak Life proudly presents “Kotak SmartLife Plan”, a limited pay participating
-                                    endowment plan which will provide you option either to receive Cash bonus
-                                    payouts
-                                    every
-                                    year.</li>
-                                <li>Right from the end of 1st policy year onwards to take care of interim
-                                    financial
-                                    requirements or utilize such Cash bonuses for accumulating and creating a
-                                    corpus.</li>
-                                <li>To
-                                    fulfill bigger goals and plan for a stress-free life.</li>
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <ul name="policyList" id="reqTxt">
+                            <li>
+                                Protect your today to secure your tomorrow. We aspire to offer our loved ones
+                                everything
+                                that they dream for, as much as we wish to secure them.</li>
+                            <li> Be it in their professional
+                                lives or personal lives, their happiness and protection is our ultimate aim.</li>
+                            <li> That
+                                is
+                                why Kotak Life Insurance offers Kotak Premier Moneyback Plan, a unique plan
+                                that
+                                blends
+                                savings and protection.</li>
+                            <li>It is a limited pay plan that provides lump sum payouts at
+                                regular intervals to meet your interim financial requirements and let you offer
+                                the
+                                best to your family.</li>
 
-                            </ul>
-                            <span id="splTxt">Either paid up additions or year onwards</span>
+                        </ul>
+                        <span id="splTxt">20% of sum assured every five years + loyalty bonus + maturity bonus</span>
+                    </div>
+                    <div class="col-sm-6 ">
+                        <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" onclick="getValue('Kotak Premier Moneyback Plan')"
+                            value="Apply">
+                    </div>
+                </div>
+                <div class="col-sm-6 ">
+                    <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
+                </div>
+            </div>
+            <div id="4" name="4">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <p id="reqTitle">Kotak Premier Income Plan</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <ul name="policyList" id="reqTxt">
+                        <li>
+                            Kotak Premier Income Plan is a savings and protection oriented plan that offers
+                            Guaranteed Annual Income immediately after the premium payment term to provide
+                            you
+                            with
+                            an additional annual income.</li>
+                        <li>It also gives accrued bonuses at the end of the policy
+                            term in lump sum while providing life cover throughout the policy term.</li>
+
+                    </ul>
+                    <span id="splTxt">Double the sum assured</span>
+                </div>
+                <div class="col-sm-6 ">
+                    <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" onclick="getValue('Kotak Premier Income Plan')"
+                        value="Apply">
+                </div>
+            </div>
+            <div class="col-sm-6 ">
+                <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
+            </div>
+        </div>
+        <div id="5" name="5">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <p id="reqTitle">Kotak SmartLife Plan</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <ul name="policyList" id="reqTxt">
+                    <li>
+                        Kotak Life proudly presents “Kotak SmartLife Plan”, a limited pay participating
+                        endowment plan which will provide you option either to receive Cash bonus
+                        payouts
+                        every
+                        year.</li>
+                    <li>Right from the end of 1st policy year onwards to take care of interim
+                        financial
+                        requirements or utilize such Cash bonuses for accumulating and creating a
+                        corpus.</li>
+                    <li>To
+                        fulfill bigger goals and plan for a stress-free life.</li>
+
+                </ul>
+                <span id="splTxt">Either paid up additions or year onwards</span>
+            </div>
+            <div class="col-sm-6 ">
+                <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" onclick="getValue('Kotak SmartLife Plan')"
+                    value="Apply">
+            </div>
+        </div>
+        <div class="modal fade" id="iModal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="popformHeader">Insurance Plan</h5>
+                        <button class="close" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form method="post" id="ipopform">
+                            <div class="popformContent">
+                                <div class="row">
+                                    <div class="col-sm-4"><label>Name</label> </div>
+                                    <div class="col-sm-8"><input class="form-control" type="text" placeholder="Name"
+                                            name="name" id="name" required></div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="popformContent">
+                        <div class="row">
+                            <div class="col-sm-4"><label>Mobile Number</label></div>
+                            <div class="col-sm-8"><input class="form-control" type="text" placeholder="999-999-999"
+                                    name="phone" id="phone" required></div>
                         </div>
-                        <div class="modal fade" id="iModal">
-                            <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title" id="popformHeader">Insurance Plan</h5>
-                                        <button class="close" data-dismiss="modal">
-                                            <span>&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form method="post" id="ipopform">
-                                            <div class="popformContent">
-                                                <div class="row">
-                                                    <div class="col-sm-4"><label>Name</label> </div>
-                                                    <div class="col-sm-8"><input class="form-control" type="text"
-                                                            placeholder="Name" name="name" id="name" required></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="popformContent">
-                                            <div class="row">
-                                                <div class="col-sm-4"><label>Mobile Number</label></div>
-                                                <div class="col-sm-8"><input class="form-control" type="text"
-                                                        placeholder="999-999-999" name="phone" id="phone" required></div>
-                                            </div>
-                                            <div class="popformContent">
-                                                <div class="row">
-                                                    <div class="col-sm-4"><label>Plan Type</label> </div>
-                                                    <div class="col-sm-8">
-                                                        <div class="form-group">
-                                                            <select id="my-input" class="form-control" name="Plan" id="plan">
-                                                                <option value="Advisory" selected>Kotak Assured Income Plan</option>
-                                                                <option value="Agency Partner">Kotak Assured Income Accelerator</option>
-                                                                <option value="Sr.Agency Partner">Kotak Premier Moneyback Plan</option>
-                                                                <option value="Chief Agency Partner">Kotak Premier Income Plan</option>
-                                                                <option value="Chief Agency Partner">Kotak SmartLife Plan</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="popformContent">
-                                                <div class="row">
-                                                    <div class="col-sm-4"><label>Description</label> </div>
-                                                    <div class="col-sm-8">
-                                                        <textarea class="form-control" name="message" placeholder="Message of Request" id="message"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="popformContent">
-                                                <div class="row">
-                                                    <p id="error-msg"></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="popformContent">
-                                            <div class="row">
-                                                <p id="error-msg"></p>
-                                            </div>
-                                        </div>
-                                        <div class="popformContent">
-                                            <div class="row"></div>
-                                            <input type="submit" id="btn" class="btn float-right" value="SEND IT">
-                                        </div>
-                                    </form>
+                        <div class="popformContent">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <label>Plan</label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input class="form-control" type="text" name="planType" id="planType" readonly>
                                 </div>
                             </div>
                         </div>
+                        <div class="popformContent">
+                            <div class="row">
+                                <div class="col-sm-4"><label>Description</label> </div>
+                                <div class="col-sm-8">
+                                    <textarea class="form-control" name="message" placeholder="Message of Request" id="message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="popformContent">
+                            <div class="row">
+                                <p id="error-msg"></p>
+                            </div>
+                        </div>
                     </div>
+                    <div class="popformContent">
+                        <div class="row">
+                            <p id="error-msg"></p>
+                        </div>
+                    </div>
+                    <div class="popformContent">
+                        <div class="row"></div>
+                        <input type="submit" id="btn" class="btn float-right" value="SEND IT">
+                    </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <div class="col-sm-1 col-md-1 col-lg-1" id="ads">
-            <span></span>
-        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-1 col-md-1 col-lg-1" id="ads">
+        <span></span>
+    </div>
     </div>
     <!-- Footer -->
     <div class="navbar navbar-expand fixed-bottom" id="footerMenu">

@@ -3,7 +3,38 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
+$(document).ready(function () {
+    $("#contact").submit(function (event) {
 
+        /* stop form from submitting normally */
+        event.preventDefault();
+
+        /* get the action attribute from the <form action=""> element */
+        var $form = $(this),
+            url = $form.attr('action');
+        var parameters = { name: $('#fullname').val(), Phone: $('#phone').val(), message: $('#message').val() };
+        $.ajax({
+            url: "https://script.google.com/macros/s/AKfycbzGXtX-AJDCR5yRHQ89THSmnS5uN--CzMtBr_3XLISIUptJer4/exec",
+            method: "POST",
+            data: parameters
+        })
+            .done(function (data) {
+				$('#contact-error-msg').css('color', 'green');
+				$('#contact-error-msg').html('Reach you as soon as possible...');
+			
+				
+            })
+            .fail(function (jqXHR, textStatus, errorThrown) {
+
+                $('#contact-error-msg').css('color', 'red');
+                $('#contact-error-msg').html('Falied: Please try again later.');
+			});
+			setTimeout(function(){
+				location.reload();
+		},5000);
+
+	});
+});
 var settings = {
 
 	banner: {

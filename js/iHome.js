@@ -8,9 +8,9 @@ $(document).ready(function () {
         /* get the action attribute from the <form action=""> element */
         var $form = $(this),
             url = $form.attr('action');
-        var parameters = { name: $('#name').val(), phone: $('#phone').val(), message: $('#message').val() };
+        var parameters = { name: $('#name').val(), phone: $('#phone').val(),JobTitle:$('#JobTitle').val(), message: $('#message').val() };
         $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbz3ktQIUMskVKXs0znYJhgVYPMmf6yAVlo5yyxV_aSPPxP-V2k/exec",
+            url: "https://script.google.com/macros/s/AKfycbzGXtX-AJDCR5yRHQ89THSmnS5uN--CzMtBr_3XLISIUptJer4/exec",
             method: "POST",
             data: parameters
         })
@@ -18,13 +18,16 @@ $(document).ready(function () {
 
                 $('#error-msg').css('color', 'green');
                 $('#error-msg').html('Reach you as soon as possible...');
-                location.reload();
+               
             })
             .fail(function (jqXHR, textStatus, errorThrown) {
 
                 $('#error-msg').css('color', 'red');
                 $('#error-msg').html('Falied: Please try again later or contact us.');
             });
+            setTimeout(function(){
+				location.reload();
+		},5000);
 
     });
     $("#contact").submit(function (event) {
@@ -39,7 +42,7 @@ $(document).ready(function () {
         /* Send the data using post with element id name and name2*/
         var parameters = { name: $('.name').val(), phone: $('.phone').val(), email: $('.email').val(), message: $('.message').val() };
         $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbz3ktQIUMskVKXs0znYJhgVYPMmf6yAVlo5yyxV_aSPPxP-V2k/exec",
+            url: "https://script.google.com/macros/s/AKfycbzGXtX-AJDCR5yRHQ89THSmnS5uN--CzMtBr_3XLISIUptJer4/exec",
             method: "POST",
             data: parameters
         })
@@ -47,13 +50,16 @@ $(document).ready(function () {
 
                 $('#contact-error-msg').css('color', 'green');
                 $('#contact-error-msg').html('Received your request');
-                location.reload();
+               
             })
             .fail(function (jqXHR, textStatus, errorThrown) {
 
                 $('#contact-error-msg').css('color', 'red');
                 $('#contact-error-msg').html('Falied: Please try again later or contact us.');
             });
+            setTimeout(function(){
+				location.reload();
+		},5000);
     });
 
    

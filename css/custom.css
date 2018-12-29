@@ -40,7 +40,7 @@ color: black;
 }
 #hContent
 {
-    display: none;
+    display: block;
     background-color: rgb(182, 208, 230);
     padding-bottom:50px;
 
@@ -90,6 +90,15 @@ ul[name="policyList"]
 {
     list-style: square;
 }
+#popformHeader
+{
+    justify-content: center;
+}
+.popformContent
+{
+margin: 1%; 
+padding: 2%;
+}
 #splTxt
 {
 margin-left:20%;
@@ -102,7 +111,17 @@ padding: 1%;
 background-color: rgb(31, 192, 192);
 color: black;
 }
-
+.contactUs
+{
+  
+    color:white;
+   
+}
+#contact
+{
+    color:white;
+    margin-left:20%;
+}
 #footerMenu
 {
     width: auto;

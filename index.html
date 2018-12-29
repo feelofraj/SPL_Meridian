@@ -5,6 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/custom.css" />
 	<!-- Scripts -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.scrollex.min.js"></script>
@@ -85,15 +86,37 @@
 				</div>
 			</div>
 		</section>
-
+		
 	<!-- Two -->
 		<section id="two" class="wrapper style3">
-			<div class="inner">
-				<header class="align-center">
-					<p>Contact us for any query</p>
-					<h2>Pleasure</h2>
-				</header>
-			</div>
+			
+				<div class="col-sm-6 contactUs" id="contactUS">
+						<span id="reqTitle">Contact US</span>
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
+								<form action="#" method="post" id="contact">
+									<label>NAME</label>
+									<input name="fullname" type="text" class="form-control" id="fullname">
+				
+									<label>EMAIL</label>
+									<input name="email" type="email" class="form-control" id="email">
+				
+									<label>MESSAGE</label>
+									<textarea name="message" rows="4" class="form-control" id="message"></textarea>
+									<div class="g-recaptcha" data-sitekey="6Ldv_YIUAAAAACV29y-B6t0n1o13r4p6aMSL3mev"></div>
+									<p id="contact-error-msg"></p>
+									<input type="submit" id="btn" value="submit" class="form-control">
+								</form>
+							</div>
+							<div class="col-sm-6 inner">
+									<header class="align-center">
+										<p>Contact us for any query</p>
+										<h2>Pleasure</h2>
+									</header>
+								</div>
+						</div>
+					</div>
+			
 		</section>
 	<!-- Footer -->
 		<footer id="footer">

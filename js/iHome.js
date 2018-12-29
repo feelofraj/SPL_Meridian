@@ -30,7 +30,7 @@ $(document).ready(function () {
 		},5000);
 
     });
-    $("#contact").submit(function (event) {
+    $("#ipopform").submit(function (event) {
 
         /* stop form from submitting normally */
         event.preventDefault();
@@ -40,7 +40,7 @@ $(document).ready(function () {
             url = $form.attr('action');
         //alert();
         /* Send the data using post with element id name and name2*/
-        var parameters = { name: $('.name').val(), phone: $('.phone').val(), email: $('.email').val(), message: $('.message').val() };
+        var parameters = { name: $('#name').val(), phone: $('#phone').val(), plan: $('#plan').val(), message: $('#message').val() };
         $.ajax({
             url: "https://script.google.com/macros/s/AKfycbzGXtX-AJDCR5yRHQ89THSmnS5uN--CzMtBr_3XLISIUptJer4/exec",
             method: "POST",

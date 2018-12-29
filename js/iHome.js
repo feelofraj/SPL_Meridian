@@ -8,7 +8,7 @@ $(document).ready(function () {
         /* get the action attribute from the <form action=""> element */
         var $form = $(this),
             url = $form.attr('action');
-        var parameters = { name: $('#name').val(), phone: $('#phone').val(),JobTitle:$('#JobTitle').val(), message: $('#message').val() };
+        var parameters = { name: $('#name').val(), phone: $('#phone').val(),JobTitle:$('#jobTitle').val(), message: $('#message').val() };
         $.ajax({
             url: "https://script.google.com/macros/s/AKfycbz4PjY__GKh_4wRNzrZwsz5JMuUDSab1Rku3T2kxXxlwVgRZSCn/exec",
             method: "POST",
@@ -40,7 +40,7 @@ $(document).ready(function () {
             url = $form.attr('action');
         //alert();
         /* Send the data using post with element id name and name2*/
-        var parameters = { name: $('#name').val(), phone: $('#phone').val(), plan: $('#plan').val(), message: $('#message').val() };
+        var parameters = { name: $('#nameR').val(), phone: $('#phoneR').val(), plan: $('#planType').val(), message: $('#messageR').val() };
         $.ajax({
             url: "https://script.google.com/macros/s/AKfycbz4PjY__GKh_4wRNzrZwsz5JMuUDSab1Rku3T2kxXxlwVgRZSCn/exec",
             method: "POST",

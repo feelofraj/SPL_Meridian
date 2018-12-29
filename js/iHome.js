@@ -118,10 +118,10 @@ function getMobileOperatingSystem(msgContent) {
     if (msgContent) {
         msg = msgContent;
     }
-    var os = "sms:+919171547917?body=" + msg;
+    var os = "sms:+917092511553?body=" + msg;
     // iOS detection from: http://stackoverflow.com/a/9039885/177710
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-        os = "sms:+919171547917&body=" + msg;
+        os = "sms:+917092511553&body=" + msg;
     }
     location.href = os;
 }
@@ -159,8 +159,20 @@ for( i=0 ; i<=5 ;i++)
 }
 function getValue(title)
 {
-   
     document.getElementById('jobTitle').value = title;
     document.getElementById('planType').value = title;
-   
+}
+
+function getMobileOperatingSystem(msgContent) {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    var msg = "I am interested in your product. Call me";
+    if (msgContent) {
+        msg = msgContent;
+    }
+    var os = "sms:+917092511553?body=" + msg;
+    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        os = "sms:+917092511553&body=" + msg;
+    }
+    location.href = os;
 }

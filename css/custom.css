@@ -134,6 +134,23 @@ color: black;
    margin-right:50%;
     margin-left:20%;
 }
+.social-bar {
+    position:fixed;
+    top:30%;
+    right: 0px;
+    background:transparent;
+    padding:10px 5px;
+    animation: social 5s linear 2s infinite alternate;
+	cursor:pointer;
+    background-color: rgb(31, 192, 192);
+}
+#whatsapp{
+    margin-bottom: 50%
+}
+
+#deviceUL{
+    list-style: none;
+}
 #footerMenu
 {
     width: auto;

@@ -206,7 +206,7 @@ animation: social 5s linear 2s infinite alternate;
         </div>
          <div class="social-bar" id="device">
                     <ul style="list-style: none">
-                        <li class="green"><a href="whatsapp://send?text=I am interested in your product. Call me.&phone=+919171547917"><img src="img/whatsapp.png"></a></li>
+                        <li class="green"><a href="whatsapp://send?text=I am interested in your product. Call me.&phone=+917092511553"><img src="img/whatsapp.png"></a></li>
                           <li class="yellow"><a  onclick="getMobileOperatingSystem(null)"><img src="img/sms.png"></a></li>
                     </ul>
                 </div>

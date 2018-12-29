@@ -1,0 +1,323 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iHome</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.4.1/css/all.css' integrity='sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz'
+        crossorigin='anonymous'>
+    <script src="js/iHome.js"></script>
+</head>
+
+<body>
+    <div>
+           
+        <!-- header -->
+
+        <div class="navbar navbar-expand" id="headerMenu">
+            <span id="compName" href="">KOTAK INSURANCE</span>
+            <ul class="navbar-nav float-right" id="navMenu">
+                <li class="nav-item">
+                    <a class="nav-link " id="navLink" name="Policy" onclick="iContentFun()">Policies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="navLink" name="Careers" onclick="hContentFun()">Careers</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar navbar-expand  fixed-top" id="headerMenu">
+            <span id="compName">KOTAK INSURANCE</span>
+            <ul class="navbar-nav" id="navMenu">
+                <li class="nav-item">
+                    <a class="nav-link " id="navLink" name="Policy" onclick="iContentFun()">Policies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " id="navLink" name="Careers" onclick="hContentFun()">Careers</a>
+                </li>
+            </ul>
+        </div>
+       
+        <div class="row">
+            <div class="col-sm-1 col-md-1 col-lg-1" id="ads">
+                <span></span>
+            </div>
+            <div class="col-sm-10 col-md-10 col-lg-10">
+                <div id="hContent">
+                    <h4>Requirements</h4>
+                    <div class="row" id="reqBox">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p id="reqTitle">JOB TITLE :<span id="reqTitle1"> Content1</span></p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p id="reqTitle">DESCRIPTION :</br> <span id="reqTxt">Content2</span></p>
+
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p id="reqTitle">ADDITIONAL DETAILS:</br><span id="reqTxt">Content3</span></p>
+
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <i class="fa fa-balance-scale" aria-hidden="true"> Exp</i>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <i class="fa fa-dollar-sign" aria-hidden="true"> $</i>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <i class="fa fa-clock" aria-hidden="true"> 12.20</i>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" value="Apply">
+                        </div>
+                    </div>
+                    <div class="row" id="reqBox">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p id="reqTitle">Title :<span id="reqTitle1"> Content1</span></p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p id="reqTitle">Description :</br> <span id="reqTxt">Content2</span></p>
+
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p id="reqTitle">Additional Details:</br><span id="reqTxt">Content3</span></p>
+
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <i class="fa fa-balance-scale" aria-hidden="true"> Exp</i>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <i class="fa fa-dollar-sign" aria-hidden="true"> $</i>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <i class="fa fa-clock" aria-hidden="true"> 12.20</i>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" value="Apply">
+                        </div>
+                    </div>
+                    <div class="row" id="reqBox">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p id="reqTitle">Title :<span id="reqTitle1"> Content1</span></p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p id="reqTitle">Description :</br> <span id="reqTxt">Content2</span></p>
+
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p id="reqTitle">Additional Details:</br><span id="reqTxt">Content3</span></p>
+
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <i class="fa fa-balance-scale" aria-hidden="true"> Exp</i>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <i class="fa fa-dollar-sign" aria-hidden="true"> $</i>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3">
+                            <i class="fa fa-clock" aria-hidden="true"> 12.20</i>
+                        </div>
+                        <div class="col-sm-3 ">
+                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#hModal" value="Apply">
+                        </div>
+                    </div>
+                    
+                </div>
+                <div id="iContent">
+                    <h4>INSURANCE POLICY</h4>
+                    <div class="row" id="reqBox">
+                        <div class="col-sm-12 col-md-12 col-lg-12">
+                            <p id="reqTitle">Please Select the type</p>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <select class="form-control" name="insDrpDwn" id="insDrpDwn">
+                                    <option value="0" selected>Select One</option>
+                                    <option value="1">Kotak Assured Income Plan</option>
+                                    <option value="2">Kotak Assured Income Accelerator</option>
+                                    <option value="3">Kotak Premier Moneyback Plan</option>
+                                    <option value="4">Kotak Premier Income Plan</option>
+                                    <option value="5">Kotak SmartLife Plan</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 ">
+                            <input onclick="selectPolicy()" id="btn" class="btn" type="button" value="Search">
+                        </div>
+                    </div>
+                    <div class="row" id="reqBox">
+                        <div id="0" name="0">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <p id="reqTitle">Welcome to Kotak Insurance Policy</p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <ul name="policyList">
+                                    <li id="reqTxt">Please select the Insurance Type</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="1" name="1">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <p id="reqTitle">Kotak Assured Income Plan</p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <ul name="policyList" id="reqTxt">
+                                    <li>
+                                        A Life Insurance PlanThe little luxuries that we indulge in with our family
+                                        form our
+                                        most pleasant memories.</li>
+                                    <li>Imagine if you could enjoy these moments without worrying about the associated
+                                        costs.</li>
+                                    <li>An additional
+                                        guaranteed stream of income could make a difference here.</li>
+                                    <li>A smart investment
+                                        decision
+                                        today can go a long
+                                        way in ensuring that the life, you want for your family, would indeed become a
+                                        reality.</li>
+                                    <li>Keeping this in
+                                        mind, Kotak Life Insurance brings to you Kotak Assured Income Plan, your second
+                                        income.</li>
+                                    <li>This plan
+                                        guarantees you an additional income every year for fixed 15 years.</li>
+                                    <li>You also enjoy
+                                        life
+                                        cover for the entire
+                                        policy term thereby protecting your family from any uncertainties.
+                                    </li>
+                                </ul>
+                                <span id="splTxt">Give 10L get 20L + Tax benefits+ Life coverage</span>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <input id="btn" class="btn" type="button" value="Apply">
+                            </div>
+                        </div>
+                        <div id="2" name="2">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <p id="reqTitle">Kotak Assured Income Accelerator</p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <ul name="policyList" id="reqTxt">
+                                    <li>
+                                        Kotak Assured Income Accelerator offers a unique way to get risk free returns.</li>
+                                    <li> It
+                                        ensures that you get
+                                        Guaranteed Income every year on the same amount of savings and that your
+                                        guaranteed.</li>
+                                    <li> Income increases year
+                                        on year – a plan that truly grows with your savings!.</li>
+
+                                </ul>
+                                <span id="splTxt">Year Returns + Income increases year on year</span>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <input id="btn" class="btn" type="button" value="Apply">
+                            </div>
+                        </div>
+                        <div id="3" name="3">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <p id="reqTitle">Kotak Premier Moneyback Plan</p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <ul name="policyList" id="reqTxt">
+                                    <li>
+                                        Protect your today to secure your tomorrow. We aspire to offer our loved ones
+                                        everything
+                                        that they dream for, as much as we wish to secure them.</li>
+                                    <li> Be it in their professional
+                                        lives or personal lives, their happiness and protection is our ultimate aim.</li>
+                                    <li> That
+                                        is
+                                        why Kotak Life Insurance offers Kotak Premier Moneyback Plan, a unique plan
+                                        that
+                                        blends
+                                        savings and protection.</li>
+                                    <li>It is a limited pay plan that provides lump sum payouts at
+                                        regular intervals to meet your interim financial requirements and let you offer
+                                        the
+                                        best to your family.</li>
+
+                                </ul>
+                                <span id="splTxt">20% of sum assured every five years + loyalty bonus + maturity bonus</span>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <input id="btn" class="btn" type="button" value="Apply">
+                            </div>
+                        </div>
+                        <div id="4" name="4">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <p id="reqTitle">Kotak Premier Income Plan</p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <ul name="policyList" id="reqTxt">
+                                    <li>
+                                        Kotak Premier Income Plan is a savings and protection oriented plan that offers
+                                        Guaranteed Annual Income immediately after the premium payment term to provide
+                                        you
+                                        with
+                                        an additional annual income.</li>
+                                    <li>It also gives accrued bonuses at the end of the policy
+                                        term in lump sum while providing life cover throughout the policy term.</li>
+
+                                </ul>
+                                <span id="splTxt">Double the sum assured</span>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <input id="btn" class="btn" type="button" value="Apply">
+                            </div>
+                        </div>
+                        <div id="5" name="5">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <p id="reqTitle">Kotak SmartLife Plan</p>
+                            </div>
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <ul name="policyList" id="reqTxt">
+                                    <li>
+                                        Kotak Life proudly presents “Kotak SmartLife Plan”, a limited pay participating
+                                        endowment plan which will provide you option either to receive Cash bonus
+                                        payouts
+                                        every
+                                        year.</li>
+                                    <li>Right from the end of 1st policy year onwards to take care of interim
+                                        financial
+                                        requirements or utilize such Cash bonuses for accumulating and creating a
+                                        corpus.</li>
+                                    <li>To
+                                        fulfill bigger goals and plan for a stress-free life.</li>
+
+                                </ul>
+                                <span id="splTxt">Either paid up additions or year onwards</span>
+                            </div>
+                            <div class="col-sm-6 ">
+                                <input id="btn" class="btn" type="button" value="Apply">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1" id="ads">
+                <span></span>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="navbar navbar-expand fixed-bottom" id="footerMenu">
+            <ul class="navbar-nav" id="navMenu">
+                <li class="nav-item">
+                    <a class="nav-link" id="navLink" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="navLink" href="contact.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="navLink" href="index.html/#contactUs">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

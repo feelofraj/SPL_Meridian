@@ -1,0 +1,116 @@
+#headerMenu
+{
+background-color: rgb(14, 31, 42);
+font-family: fantasy;
+color: rgb(206, 222, 236);
+width: auto;
+    height: auto;
+
+}
+#compName
+{
+    
+    font-size: 210%;
+    color: rgb(108, 144, 175);
+}
+#navMenu
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 100%;
+    margin-left:10%;
+    width: auto;
+    height: auto;
+  
+}
+#navLink
+{
+    margin:1%;
+    /* transition-property: width, height; */
+}
+.active , #navLink:hover
+{
+background-color: rgb(121, 155, 187);
+color: black;
+}
+
+#ads
+{
+    background-color: white;
+    margin-top: inherit;
+}
+#hContent
+{
+    display: none;
+    background-color: rgb(182, 208, 230);
+    padding-bottom:50px;
+
+}
+#iContent
+{
+    /* background-image:url(img/life_insurance.jpg); */
+    background-color: rgb(182, 208, 230);
+    padding-bottom:50px;
+    
+}
+#reqBox
+{
+    
+    border:1px solid black;
+    margin:10px;
+    padding-bottom:10px;
+    
+}
+#reqTitle
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: normal;
+    text-transform: uppercase;
+    -webkit-text-transform:uppercase;
+}
+#reqTitle1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-style: normal;
+    text-transform: uppercase;
+    -webkit-text-transform:uppercase;
+}
+#reqTxt
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-style: italic;
+}
+div[name="1"],div[name="2"],div[name="3"],div[name="4"],div[name="5"]
+{
+display: none;
+}
+ul[name="policyList"]
+{
+    list-style: square;
+}
+#splTxt
+{
+margin-left:20%;
+background-color: black;
+color: rgb(255, 27, 27);
+padding: 1%;
+}
+#btn
+{
+background-color: rgb(31, 192, 192);
+color: black;
+}
+
+#footerMenu
+{
+    width: auto;
+    height: auto;
+    font-family: fantasy;
+    font-size:90%;
+background-color:rgb(14, 31, 42);
+/* margin-bottom: 0%; */
+
+color: rgb(108, 177, 238);
+}

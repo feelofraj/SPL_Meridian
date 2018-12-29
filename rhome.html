@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/main.css" />
+<style>
+    body {
+        background-image: url("images/backgroud.jpg");
+        background-repeat: repeat;
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #d3caca;
+    }
+</style>
+<body>
+    <!-- Band Description -->
+    <section>
+        <h2 class="align-center">Real Estate</h2>
+        <p class="align-center"><i>Real Estate categories</i></p>
+        <ol>
+            <li><b>Residential real estate</b> includes both new construction and resale homes. The most common
+                category is single-family homes. There are also condominiums, co-ops, townhouses, duplexes,
+                triple-deckers, quadplexes, high-value homes, multi-generational and vacation homes. </li>
+            <li><b>Commercial real estate</b> includes shopping centers and strip malls, medical and educational
+                buildings, hotels and offices. Apartment buildings are often considered commercial, even though they
+                are used for residences. That's because they are owned to produce income.</li>
+            <li><b>Industrial real estate</b> includes manufacturing buildings and property, as well as warehouses. The
+                buildings can be used for research, production, storage and distribution of goods. Some buildings that
+                distribute goods are considered commercial real estate. The classification is important because the
+                zoning, construction and sales are handled differently.</li>
+            <li><b>Land</b> includes vacant land, working farms and ranches. The subcategories within vacant land
+                include undeveloped, early development or reuse, subdivision and site assembly. </li>
+        </ol>
+    </section>
+    <script>
+        // Automatic Slideshow - change image every 3 seconds
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
+</body>
+
+</html>

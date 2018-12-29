@@ -199,17 +199,19 @@
                                             <div class="row">
                                                 <div class="col-sm-4"><label>Job Title</label> </div>
                                                 <div class="col-sm-8">
-                                                    <input class="form-control" type="text" name="jobTitle" id="jobTitle" readonly>
+                                                    <input class="form-control" type="text" name="jobTitle" id="jobTitle"
+                                                        readonly>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="popformContent">
                                             <div class="row">
                                                 <div class="col-sm-4">
-                                                    <label>Description</label> 
+                                                    <label>Description</label>
                                                 </div>
-                                                <div class="col-sm-8"> 
-                                                 <textarea class="form-control" name="message" placeholder="Message of Request" id="message"></textarea>
+                                                <div class="col-sm-8">
+                                                    <textarea class="form-control" name="message" placeholder="Message of Request"
+                                                        id="message"></textarea>
                                                 </div>
                                             </div>
                                         </div>
@@ -228,8 +230,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="iContent">
+           
+                 <div id="iContent">
                 <h4>INSURANCE POLICY</h4>
                 <div class="row" id="reqBox">
                     <div class="col-sm-12 col-md-12 col-lg-12">
@@ -266,10 +268,6 @@
                         <div class="col-sm-12 col-md-12 col-lg-12">
                             <p id="reqTitle">Kotak Assured Income Plan</p>
                         </div>
-                        <div id="1" name="1">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
-                                <p id="reqTitle">Kotak Assured Income Plan</p>
-                            </div>
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <ul name="policyList" id="reqTxt">
                                     <li>
@@ -302,10 +300,7 @@
                                 <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal"
                                     onclick="getValue('Kotak Assured Income Plan')" value="Apply">
                             </div>
-                        </div>
-                        <div class="col-sm-6 ">
-                            <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
-                        </div>
+                        
                     </div>
                     <div id="2" name="2">
                         <div class="col-sm-12 col-md-12 col-lg-12">
@@ -330,11 +325,8 @@
                                 value="Apply">
                         </div>
                     </div>
-                    <div class="col-sm-6 ">
-                        <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
-                    </div>
-                </div>
-                <div id="3" name="3">
+               
+                    <div id="3" name="3">
                     <div class="col-sm-12 col-md-12 col-lg-12">
                         <p id="reqTitle">Kotak Premier Moneyback Plan</p>
                     </div>
@@ -364,12 +356,8 @@
                         <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" onclick="getValue('Kotak Premier Moneyback Plan')"
                             value="Apply">
                     </div>
-                </div>
-                <div class="col-sm-6 ">
-                    <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
-                </div>
-            </div>
-            <div id="4" name="4">
+                    </div>
+                    <div id="4" name="4">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <p id="reqTitle">Kotak Premier Income Plan</p>
                 </div>
@@ -391,12 +379,9 @@
                     <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" onclick="getValue('Kotak Premier Income Plan')"
                         value="Apply">
                 </div>
-            </div>
-            <div class="col-sm-6 ">
-                <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" value="Apply">
-            </div>
-        </div>
-        <div id="5" name="5">
+                    </div>
+       
+                    <div id="5" name="5">
             <div class="col-sm-12 col-md-12 col-lg-12">
                 <p id="reqTitle">Kotak SmartLife Plan</p>
             </div>
@@ -422,8 +407,8 @@
                 <input id="btn" class="btn" type="button" data-toggle="modal" data-target="#iModal" onclick="getValue('Kotak SmartLife Plan')"
                     value="Apply">
             </div>
-        </div>
-        <div class="modal fade" id="iModal">
+                    </div>
+                    <div class="modal fade" id="iModal">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -436,65 +421,71 @@
                         <form method="post" id="ipopform">
                             <div class="popformContent">
                                 <div class="row">
-                                    <div class="col-sm-4"><label>Name</label> </div>
-                                    <div class="col-sm-8"><input class="form-control" type="text" placeholder="Name"
-                                            name="name" id="name" required></div>
+                                    <div class="col-sm-4">
+                                        <label>Name</label>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input class="form-control" type="text" placeholder="Name" name="name" id="name"
+                                            required>
+                                    </div>
                                 </div>
                             </div>
-                    </div>
-                    <div class="popformContent">
-                        <div class="row">
-                            <div class="col-sm-4"><label>Mobile Number</label></div>
-                            <div class="col-sm-8"><input class="form-control" type="text" placeholder="999-999-999"
-                                    name="phone" id="phone" required></div>
-                        </div>
-                        <div class="popformContent">
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <label>Plan</label>
-                                </div>
-                                <div class="col-sm-8">
-                                    <input class="form-control" type="text" name="planType" id="planType" readonly>
+
+                            <div class="popformContent">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <label>Mobile Number</label>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input class="form-control" type="text" placeholder="999-999-999" name="phone"
+                                            id="phone" required>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="popformContent">
-                            <div class="row">
-                                <div class="col-sm-4"><label>Description</label> </div>
-                                <div class="col-sm-8">
-                                    <textarea class="form-control" name="message" placeholder="Message of Request" id="message"></textarea>
+                            <div class="popformContent">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <label>Plan</label>
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <input class="form-control" type="text" name="planType" id="planType" readonly>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="popformContent">
-                            <div class="row">
-                                <p id="error-msg"></p>
+                            <div class="popformContent">
+                                <div class="row">
+                                    <div class="col-sm-4"><label>Description</label> </div>
+                                    <div class="col-sm-8">
+                                        <textarea class="form-control" name="message" placeholder="Message of Request"
+                                            id="message"></textarea>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                            <div class="popformContent">
+                                <div class="row">
+                                    <p id="error-msg"></p>
+                                </div>
+                            </div>
+                            <div class="popformContent">
+                                <div class="row">
+                                    <input type="submit" id="btn" class="btn float-right" value="SEND IT">
+                                </div>
+                            </div>
+
+                        </form>
                     </div>
-                    <div class="popformContent">
-                        <div class="row">
-                            <p id="error-msg"></p>
-                        </div>
-                    </div>
-                    <div class="popformContent">
-                        <div class="row"></div>
-                        <input type="submit" id="btn" class="btn float-right" value="SEND IT">
-                    </div>
-                    </form>
                 </div>
             </div>
-        </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    <div class="col-sm-1 col-md-1 col-lg-1" id="ads">
+                    </div>
+                </div>
+                 </div>
+            </div>
+            <div class="col-sm-1 col-md-1 col-lg-1" id="ads">
         <span></span>
-    </div>
-    </div>
-    <!-- Footer -->
-    <div class="navbar navbar-expand fixed-bottom" id="footerMenu">
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="navbar navbar-expand fixed-bottom" id="footerMenu">
         <ul class="navbar-nav" id="navMenu">
             <li class="nav-item">
                 <a class="nav-link" id="navLink" href="index.html">Home</a>
@@ -503,7 +494,7 @@
                 <a class="nav-link" id="navLink" href="index.html#contactUs">Contact</a>
             </li>
         </ul>
-    </div>
+        </div>
     </div>
 </body>
 

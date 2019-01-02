@@ -2577,7 +2577,7 @@
 	}
 
 	header p {
-		color: #bbb;
+		color: rgb(7, 7, 7);
 	}
 
 /* Table */
@@ -4017,7 +4017,7 @@
 		}
 
 		.banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6 {
-			color: #ffffff;
+			color: black;
 		}
 
 		.banner blockquote {

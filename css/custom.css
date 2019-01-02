@@ -1,4 +1,19 @@
+#bannerTitle
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    font-style: italic;
+    color: rgb(7, 5, 37);
 
+}
+#bannerTitle1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: normal;
+    color: black;
+
+}
 #rAddress
 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -38,13 +53,16 @@ width: auto;
 background-color: rgb(121, 155, 187);
 color: black;
 }
-
+body
+{
+    background-color:  #f2f2f2;  
+}
 #ContentBody
 {
     
     padding-top:4.3%;
     padding-bottom: 50px;
-    background-color:  #f2f2f2;
+    
 }
 #ads
 {

@@ -12,9 +12,9 @@ $(document).ready(function () {
         /* get the action attribute from the <form action=""> element */
         var $form = $(this),
             url = $form.attr('action');
-        var parameters = { name: $('#fullname').val(), Phone: $('#phone').val(), message: $('#message').val() };
+        var parameters = { name: $('#fullname').val(), Phone: $('#phone').val(), message: $('#message').val(), mailSubject: "Request from SPLMeridian", toMail: "usharanip1947@gmail.com"};
         $.ajax({
-            url: "https://script.google.com/macros/s/AKfycbz4PjY__GKh_4wRNzrZwsz5JMuUDSab1Rku3T2kxXxlwVgRZSCn/exec",
+            url: "https://script.google.com/macros/s/AKfycbxdQUSLUHH1g9V3qlYqzd3ZPCBXjIIkD_QOqAsNOEsyLNWRADXI/exec",
             method: "POST",
             data: parameters
         })
